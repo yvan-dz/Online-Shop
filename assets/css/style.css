@@ -241,6 +241,11 @@ margin-left: 15px;
 	flex-direction: column;
 
 }
+#rabatte .kind2 div{
+	display: flex;
+	flex-direction: row;
+}
+
 #rabatte img{
 	margin-bottom: 10px;
 	margin-right: 5px;
@@ -254,8 +259,8 @@ margin-left: 15px;
 #sale1{
 	font-size: 49px;
 	position: absolute;
-	left: 177px;
-	top: 355%;
+	left: 160px;
+	top: 398%;
 	background-color: darkred;
 	padding:30px 30px 0px 63px;
 
@@ -263,34 +268,34 @@ margin-left: 15px;
 #sale2{
 	font-size: 41px;
 	position: absolute;
-	left: 760px;
-	top: 357%;
+	left: 740px;
+	top: 400%;
 	background-color: darkred;
 	padding:30px 40px 0px 63px;
 }
 #sale3{
 	font-size: 55px;
 	position: absolute;
-	left: 760px;
-	top: 397.5%;
+	left: 740px;
+	top: 445.5%;
 	background-color: darkred;
 	padding:30px 149px 0px 149px;
 }
 #sale4{
-	font-size: 62px;
+	font-size: 58px;
 	position: absolute;
-	left: 175px;
-	top: 440%;
+	left: 160px;
+	top: 493%;
 	background-color: darkred;
-	padding:30px 150px 0px 113px;
+	padding:30px 150px 0px 132px;
 	}
 #sale5{
 	font-size: 40px;
 	position: absolute;
-	left: 760px;
-	top: 443%;
+	left: 740px;
+	top: 495%;
 	background-color: darkred;
-	padding:30px 70px 0px 60px;
+	padding:30px 70px 0px 45px;
 }
 
 

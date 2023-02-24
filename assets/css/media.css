@@ -3,6 +3,7 @@
 main{
 	width: 245%;
 }
+
 .headerchild1 .kind1{
 	display: flex;
 	flex-direction: row;
@@ -21,6 +22,7 @@ main{
 #trend1 .kind2 img{
 	width: 49%;
 }
+
 
 #shopentdecken .kind2 .großkind1 , #shopentdecken .kind2 .großkind2{
 	display: none;
