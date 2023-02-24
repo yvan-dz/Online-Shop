@@ -255,8 +255,21 @@ margin-left: 15px;
 #rabatte img:hover{
 	cursor: pointer;
 }
+#image-container{
+	position: relative;
+	display: inline-block;
+}
+#image-container span{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 45px;
+	width: 80%;
+	font-weight: bold;
+}
 
-#sale1{
+/*#sale1{
 	font-size: 49px;
 	position: absolute;
 	left: 160px;
@@ -297,7 +310,7 @@ margin-left: 15px;
 	background-color: darkred;
 	padding:30px 70px 0px 45px;
 }
-
+*/
 
 #zusatzinfo{
 	display: flex;
