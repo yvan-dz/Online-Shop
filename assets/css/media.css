@@ -1,0 +1,51 @@
+@media screen and (max-width: 420px) and (orientation: portrait){
+
+main{
+	width: 245%;
+}
+.headerchild1 .kind1{
+	display: flex;
+	flex-direction: row;
+}
+#trend1{
+	display: flex;
+	flex-direction: column;
+}
+#trend1 .kind1 img{
+	width: 100%;
+}
+#trend1 .kind2{
+	display: flex;
+	flex-direction: row;
+}
+#trend1 .kind2 img{
+	width: 49%;
+}
+
+#shopentdecken .kind2 .großkind1 , #shopentdecken .kind2 .großkind2{
+	display: none;
+}
+
+#trend2 img{
+	width: 102%;
+}
+
+#designer .kind2 img{
+	width: 16%;
+}
+
+#trend3 .kind img{
+	width: 31%;
+	height: 200px;
+}
+
+#rabatte{
+	display: none;
+}
+
+#zusatzinfo,footer{
+	width: 260%;
+}
+
+
+}

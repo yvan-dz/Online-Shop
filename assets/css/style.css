@@ -1,0 +1,392 @@
+main{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+.headerchild1{
+	width: 20%;
+}
+
+.headerchild1>.kind1{
+	flex-direction: row;
+	margin-left: 10px;
+	margin-bottom: 20px;
+
+}
+.headerchild1>.kind2{
+	
+	margin-right: 15px;
+}
+.kind2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.headerchild2{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+.headerchild2>img{
+	width: 150px;
+	height: 120px;
+	margin-left: 50px;
+}
+
+.headerchild3{
+	margin-left: 150px;
+	width: 10%;
+	margin-right: 70px;
+}
+.headerchild3>.kind1{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.headerchild1 .kind1 img:hover,.headerchild1 .kind2 .großkind:hover
+,.headerchild2 img, .headerchild3 img,nav div:hover{
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: black;
+	color: white;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	font-size: larger;
+}
+
+#free{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	font-family: Verdana,sans-serif;
+
+}
+#free span:hover{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#trend1{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+#trend1 .kind2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#trend1 .kind1>img{
+	height: 500px;
+	width: 750px;
+	margin-right: 25px;
+	transition: width  1s;
+	
+}
+
+#trend1 .kind2 img{
+	height: 240px;
+	width: 400px;
+	transition: height  1s;
+}
+
+#trend1 .kind1 img:hover{
+width: 780px;
+cursor: pointer;
+}
+#trend1 .kind2 img:hover{
+	height: 260px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+
+#shopentdecken{
+	margin-top: 30px;
+	
+}
+#shopentdecken .kind2{
+	display: flex;
+	flex-direction: row;
+justify-content: space-around;
+flex-wrap: nowrap;
+}
+
+#shopentdecken .kind1{
+	font-family: verdana,sans-serif;
+}
+
+#shopentdecken .kind2 img{
+	margin-top: 20px;
+	height: 157px;
+	width: 160px;
+	border-radius: 80px;
+}
+#shopentdecken .kind2  figcaption{
+margin-left: 40px;
+}
+#shopentdecken .kind2 .großkind2 figcaption{
+margin-left: 65px;
+}
+#shopentdecken .kind2 .großkind1 figcaption{
+margin-left: 15px;
+}
+#shopentdecken .kind2 figure{
+	margin-left: 7px;
+}
+#shopentdecken .kind2  figcaption:hover,#shopentdecken .kind2 img:hover{
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#trend2{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+
+}
+#trend2 img{
+	height: 320px;
+	width: 555px;
+	transition: width 1s;
+}
+#trend2 .kind1{
+	margin-right: 40px;
+}
+#trend2 img:hover{
+	cursor: pointer;
+	width: 580px;
+}
+
+
+#designer .kind1{
+	margin-top: 30px;
+	font-family: verdana,sans-serif;
+}
+#designer .kind2 img{
+	margin-top: 20px;
+	height: 100px;
+	width: 150px;
+	margin-bottom: 20px;
+	border-style: solid;
+	padding: 9px;
+	transition: width 1s;
+	
+}
+#designer .kind2 img:hover{
+	cursor: pointer;
+	width: 160px;
+}
+
+
+#trend3{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+
+}
+.kind{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 15px;
+}
+#trend3 img{
+	height: 280px;
+	width: 385px;
+	transition: width 1s;
+}
+#trend3 .kind1{
+	margin-right: 40px;
+
+}
+#trend3 img:hover{
+	cursor: pointer;
+	width: 395px;
+}
+
+
+#rabatte .kind1{
+	font-family: verdana,sans-serif;
+	margin-bottom: 20px;
+}
+#rabatte .kind2{
+	display: flex;
+	flex-direction: column;
+
+}
+#rabatte img{
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	transition: width 1s;
+}
+#rabatte img:hover{
+	cursor: pointer;
+}
+
+#sale1{
+	font-size: 49px;
+	position: absolute;
+	left: 177px;
+	top: 355%;
+	background-color: darkred;
+	padding:30px 30px 0px 63px;
+
+}
+#sale2{
+	font-size: 41px;
+	position: absolute;
+	left: 760px;
+	top: 357%;
+	background-color: darkred;
+	padding:30px 40px 0px 63px;
+}
+#sale3{
+	font-size: 55px;
+	position: absolute;
+	left: 760px;
+	top: 397.5%;
+	background-color: darkred;
+	padding:30px 149px 0px 149px;
+}
+#sale4{
+	font-size: 62px;
+	position: absolute;
+	left: 175px;
+	top: 440%;
+	background-color: darkred;
+	padding:30px 150px 0px 113px;
+	}
+#sale5{
+	font-size: 40px;
+	position: absolute;
+	left: 760px;
+	top: 443%;
+	background-color: darkred;
+	padding:30px 70px 0px 60px;
+}
+
+
+#zusatzinfo{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	background-color: lightgrey;
+	width: 100%;
+}
+
+#zusatzinfo .kind{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+
+}
+#zusatzinfo .kind div{
+	margin-bottom: 20px;
+}
+
+
+#zusatzinfo img{
+	margin-left: 100px;
+	margin-top: 15px;
+	height: 90px;
+	width: 100px;
+}
+
+#zusatzinfo .kind .text{
+	margin-left: 100px;
+	font-size: 15px;
+	font-family: verdana;
+}
+
+
+
+footer{
+	background-color: black;
+	color: white;
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+footer .kind{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+footer .kind .text{
+	color: grey;
+	font-family: verdana, sans-serif;
+	margin-bottom: 10px;
+}
+
+footer .kind .text2{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+footer .kind .text2 span{
+	margin-right: 20px;
+	font-family: verdana, sans-serif;
+}
+#footerkind{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 60px;
+}
+#footerkind img{
+	width: 40px;
+	height: 30px;
+}
+#footerkind .kind .großkind img{
+	margin-right: 5px;
+}
+#kind3{
+	margin-left: 25%;
+	margin-right: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-style: oblique;
+
+}
+#kind3 .kind1{
+	font-weight: bold;
+	margin-left: 36%;
+}
+footer .kind .text2 span:hover,#footerkind .kind .großkind img:hover{
+	cursor: pointer;
+	font-weight: bold;
+}
